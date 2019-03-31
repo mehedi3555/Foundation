@@ -1,0 +1,129 @@
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+p {
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.flex-caption {
+  position: relative;
+  background: #fff;
+  color: #333;
+  max-width: 310px;
+  display: table;
+  padding: 30px;
+  border-radius: 4px;
+}
+
+.flex-caption p {
+  color:  #000000;
+  font-weight: 400;
+  font-family: Tahoma;
+}
+
+li.css a {
+      border-radius: 0;
+}
+
+.flex-viewport {
+  max-height: 450px;
+  max-width: 800px;
+}
+
+.flexslider .slides img {
+  height: auto;
+  max-width: 490px;
+  border-radius: 4px 0px 0px 4px;
+  float: left;
+}
+
+.flexslider {
+  border: 0px solid #ffffff;
+  box-shadow: 0 1px 30px rgba(0,0,0,.4);
+  transition: 400ms ease;
+}
+
+span.date {
+  font-size: 11px;
+}
+
+.flex-control-nav {
+  bottom: 5px;
+}
+
+.flex-control-paging li a {
+  width: 8px;
+  height: 8px;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.flex-control-paging li a:hover {
+  background: #136580;
+}
+
+.flex-control-paging li a.flex-active {
+  background: #136580;
+}
+
+.flex-control-nav {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.flexslider .slides > li {
+  position: relative;
+}
+
+.card-outmore {
+  padding: 10px 30px 10px 30px;
+  border-radius: 0px 0px 4px 0px;
+  border-top: 1px solid #e0e0e0;
+  background: #efefef;
+  color: #222;
+  display: inline-table;
+  width: 100%;
+  max-width: 310px;
+  transition: 400ms ease;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  box-sizing: border-box;
+}
+.card-outmore h5 {
+  float: left;
+  margin: 0px;
+}
+.card-outmore i {
+  float: right;
+}
+#outmore-icon {
+  border:1px solid ;
+  padding: 1px 6px;
+  border-radius: 50em;
+}
+
+.flex-direction-nav a:before {
+  font-family: "FontAwesome";
+  font-size: 38px;
+  display: inline-block;
+  content: '\f104';
+  color: #136580;
+}
+
+.flex-direction-nav a.flex-next:before {
+  content: '\f105';
+  color: #136580;
+}
+
+a:hover .card-outmore {
+  background: #2C3E50;
+  color: #fff;
+}
+
+a:hover .flexslider {
+  box-shadow: 0 10px 50px rgba(0,0,0,.6);
+}

@@ -1,0 +1,5 @@
+@include('BackEnd.include.header')
+@include('BackEnd.include.topbar')
+@include('BackEnd.include.sidebar')
+@yield('main_content')
+@include('BackEnd.include.footer')
